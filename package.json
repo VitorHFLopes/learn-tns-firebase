@@ -1,11 +1,11 @@
 {
   "nativescript": {
     "id": "org.nativescript.learntnsfirebase",
-    "tns-android": {
-      "version": "6.4.1"
-    },
     "tns-ios": {
       "version": "6.4.0"
+    },
+    "tns-android": {
+      "version": "6.4.1"
     }
   },
   "description": "NativeScript Application",
@@ -22,6 +22,7 @@
     "@angular/router": "~8.2.0",
     "@nativescript/theme": "~2.3.0",
     "nativescript-angular": "~8.21.0",
+    "nativescript-plugin-firebase": "^10.5.0",
     "reflect-metadata": "~0.1.12",
     "rxjs": "^6.4.0",
     "tns-core-modules": "~6.4.0",

@@ -1,4 +1,12 @@
-# Android
+# Importancia de adicionar os arquivos de config no .gitignore
+
+Esses arquivos `google-services.json` e `GoogleService-Info.plist`, contém dados
+de acesso as APIs do firebase para o projeto.
+
+Devemos salvar esses arquivos em uma pasta fora do repositório para manter o 
+sigilo
+
+# Android Background Notification
 
 Quando chega um push em background e temos que mostrar um alert com os dados 
 (titulo, texto por exemplo), não conseguimos obter através das propriedades do
